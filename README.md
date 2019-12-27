@@ -1,6 +1,6 @@
 # net-sftp-ssh_signature_type
 
-This is a monkey patch to fix undefined method `ssh_signature_type' for #<OpenSSL::PKey::EC::Point"
+This is a monkey patch to fix the ruby net/sftp error: "undefined method `ssh_signature_type' for #<OpenSSL::PKey::EC::Point"
 
 ```
 # Warning MONKEY PATCH for "undefined method `ssh_signature_type'"
